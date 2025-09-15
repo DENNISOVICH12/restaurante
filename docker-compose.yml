@@ -1,6 +1,33 @@
 services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: restaurante_app
+    volumes:
+      - ./:/var/www/html
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - appnet
+
+  nginx:
+    image: nginx:1.25-alpine
+    container_name: restaurante_nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - app
+    networks:
+      - appnet
+
   db:
     image: postgres:15
+    container_name: restaurante_db
     environment:
       POSTGRES_DB: restaurante1
       POSTGRES_USER: postgres
@@ -9,32 +36,13 @@ services:
       - "5432:5432"
     volumes:
       - db_data:/var/lib/postgresql/data
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
-  
-      # Si quieres que cree tablas automáticamente, pon un init.sql junto a este compose y descomenta:
-      # - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres -d restaurante1"]
       interval: 5s
       timeout: 3s
       retries: 10
     networks:
-      appnet:
-        aliases:
-          - db            # 👈 hostname interno que usará PHP
-
-  web:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "8080:80"
-    volumes:
-      - "C:/Users/demac/Documents/restaurante:/var/www/html" # 👈 monta tu proyecto dentro del contenedor
-    depends_on:
-      - db
-    networks:
-      appnet: {}
+      - appnet
 
 volumes:
   db_data:
