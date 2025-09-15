@@ -1,0 +1,44 @@
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: restaurante1
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+  
+      # Si quieres que cree tablas automáticamente, pon un init.sql junto a este compose y descomenta:
+      # - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d restaurante1"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    networks:
+      appnet:
+        aliases:
+          - db            # 👈 hostname interno que usará PHP
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - "C:/Users/demac/Documents/restaurante:/var/www/html" # 👈 monta tu proyecto dentro del contenedor
+    depends_on:
+      - db
+    networks:
+      appnet: {}
+
+volumes:
+  db_data:
+
+networks:
+  appnet:
+    driver: bridge

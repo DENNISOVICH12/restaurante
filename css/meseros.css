@@ -1,0 +1,167 @@
+        .pedido-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .pedido-card.listo {
+            border-left: 5px solid #28a745;
+        }
+        .pedido-card.en_entrega {
+            border-left: 5px solid #17a2b8;
+        }
+        .pedido-card.entregado {
+            border-left: 5px solid #6c757d;
+            opacity: 0.7;
+        }
+        .pedido-header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .pedido-productos {
+            margin-bottom: 15px;
+        }
+        .producto-item {
+            margin-bottom: 5px;
+            padding: 5px 0;
+            border-bottom: 1px dashed #eee;
+        }
+        .pedido-actions {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .btn-action {
+            margin-left: 10px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+        /* Estilos para la navegación */
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+        }
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+        .logout-btn {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+        /* Filtro de estado */
+        .filter-bar {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+        /* Botones de filtro */
+        .btn {
+            padding: 8px 16px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .filtro-estado {
+            background-color: #f0f0f0;
+        }
+        .filtro-estado.active {
+            background-color: #007bff;
+            color: white;
+        }
+        /* Estilos para modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .modal-content {
+            background-color: white;
+            margin: 10% auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 700px;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close:hover {
+            color: #333;
+        }
+        /* Estilos para tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Notificación */
+        .notificacion {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px;
+            border-radius: 4px;
+            color: white;
+            z-index: 9999;
+        }
+        .success {
+            background-color: #4CAF50;
+        }
+        .error {
+            background-color: #F44336;
+        }
+        .info {
+            background-color: #2196F3;
+        }
+        /* Botones adicionales */
+        .btn-primary {
+            background-color: #007bff;
+            color: white;
+        }
+        .btn-success {
+            background-color: #28a745;
+            color: white;
+        }
+        .btn-secondary {
+            background-color: #6c757d;
+            color: white;
+        }
+        .text-center {
+            text-align: center;
+        }

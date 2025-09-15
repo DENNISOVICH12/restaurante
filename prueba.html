@@ -1,0 +1,179 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">RESTAURANTE</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/LOGO1.png" class="menu-icono" alt="menu"> <!--"alt" se pone por si no carga la imagen entonces sale el texto que se pone en el alt-->
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">PLATOS</a></li>
+                    <li><a href="#">BEBIDAS</a></li>
+                    <li><a href="prueba.html">COCTERIA</a></li>
+                    <li><a href="#">POSTRES</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul><!--aca se esta configurando el carrito-->
+                    <li class="submenu">
+                        <img src="img/carrito2.png" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>nombre</th>
+                                        <th>categoria</th>
+                                        <th>precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">vaciar carrito</a>
+                            <a href="#" id="enviar-pedido" class="btn-2">Enviar pedido</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="fotos para las entradas" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>ENTRADAS</h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="ofert container">
+        <div class="ofert-1" data-categoria="Entrada">
+            <div class="ofert-img1">
+                <img src="img/entrada1.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>empanadas con aji</h3>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="ofert-1" data-categoria="Entrada">
+            <div class="ofert-img">
+                <img src="img/entrada3.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>tostada española</h3>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+            </div>
+        </div>
+        <div class="ofert-1"data-categoria="Entrada">
+            <div class="ofert-img">
+                <img src="img/entrada4.png" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>sushi</h3>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+            </div>
+        </div>
+    </section>
+    
+    <main class="products container" id="lista-1">
+
+        <h2>platos principales</h2>
+
+        <div class="product-content">
+            <div class="product"data-categoria="Plato principal">
+                <img src="img/PLATO1.png" alt="">
+                <div class="product-txt">
+                    <h3>churrasco</h3>
+                    <p>este corte se obtiene de la parte trasera de la res</p>
+                    <p>acompañado con papas a la francesa y vegetales</p>
+                    <p class="precio">45.000 COP</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product"data-categoria="Plato principal">
+                <img src="img/PLATO2.png" alt="">
+                <div class="product-txt">
+                    <h3>ensalada marina</h3>
+                    <p>contiene mariscos, lechuga, pequeños cortes de naranja y tomate</p>
+                    <p>es acompañada de una vinagreta agridulce</p>
+                    <p class="precio">30.000 COP</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product"data-categoria="Plato principal">
+                <img src="img/PLATO3.png" alt="">
+                <div class="product-txt">
+                    <h3>FILET MIGNON</h3>
+                    <p>UN CORTE DE RES QUE SER CARACTERIZA POR SER UN CORTE MUY TIERNO, ESTE CORTE PROVIENE DEL LA PARTE DE LA COLA DE LA RES</p>
+                    <p>TIENE COMO BASE UNA SALSA DE CHAMPIÑON Y ZANAHORIA</p>
+                    <p class="precio">40.000 COP</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product"data-categoria="Plato principal">
+                <img src="img/PLATO4.png" alt="">
+                <div class="product-txt">
+                    <h3>PULPO</h3>
+                    <p>ESTE PLATO TIENE COMO CORTE PRINCIPAL EL PULPO Y ES ACOMPAÑADO DE CAVIAR  Y UNA SALSA MARINEREA</p>
+                    <p class="precio">80.000 COP</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product"data-categoria="Plato principal">
+                <img src="img/PLATO2.png" alt="">
+                <div class="product-txt">
+                    <h3>ensalada marina</h3>
+                    <p>contiene mariscos, lechuga, pequeños cortes de naranja y tomate</p>
+                    <p>es acompañada de una vinagreta agridulce</p>
+                    <p class="precio">30.000 COP</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product"data-categoria="Plato principal">
+                <img src="img/PLATO1.png" alt="">
+                <div class="product-txt">
+                    <h3>churrasco</h3>
+                    <p>este corte se obtiene de la parte trasera de la res</p>
+                    <p>acompañado con papas a la francesa y vegetales</p>
+                    <p class="precio">45.000 COP</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="modal-cliente" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Información del Cliente</h2>
+            <form id="form-cliente">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="direccion">Dirección (opcional):</label>
+                    <input type="text" id="direccion" name="direccion">
+                </div>
+                <button type="submit" class="btn-1">Confirmar Pedido</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/enviar.js"></script>
+</body>
+</html>

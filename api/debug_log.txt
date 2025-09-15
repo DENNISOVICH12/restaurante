@@ -1,0 +1,420 @@
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"Listo"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"Listo"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"Listo"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"En_preparación"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"En_preparación"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"En_preparación"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"Pendiente"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"Pendiente"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"listo"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"listo"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"pendiente"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"en_preparacion"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"en_preparacion"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"en_preparacion"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"en_preparacion"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"en_preparacion"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 5
+)
+
+Datos recibidos: {"estado":"en_preparacion"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 5
+)
+
+Datos recibidos: {"estado":"listo"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 5
+)
+
+Datos recibidos: {"estado":"listo"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 2
+)
+
+Datos recibidos: {"estado":"listo"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"listo"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 4
+)
+
+Datos recibidos: {"estado":"listo"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 5
+)
+
+Datos recibidos: {"estado":"listo"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 5
+)
+
+Datos recibidos: {"estado":"en_entrega"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":""}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"pendiente"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"pendiente"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
+Petición recibida: Array
+(
+    [id] => 3
+)
+
+Datos recibidos: {"estado":"en_preparacion"}
+Sesión: Array
+(
+    [redirect_url] => /restaurante/api/dashboard_data.php?periodo=mes
+    [usuario_id] => 5
+    [usuario_nombre] => restaurante1
+    [usuario_correo] => llaslds@hotmail.com
+    [usuario_rol] => cocinero
+    [loggedin] => 1
+)
